@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+/* header section */
+header{
+    display: flex;
+    background-color: #000;
+    height:90px;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    color: #ffffff;
+    background: #ba0cc5;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:active{
+    color: #ba0cc5;
+    background-image: linear-gradient(to left, rgb(0, 255, 132),rgb(194, 90, 206));
+    
+}
+header button{
+    padding: 6px 22px;
+    border-radius: 5px;
+    margin-right: 65px;
+}
+img{
+    height: 26px;
+    cursor: pointer;
+}
+.line{
+    background-color: #fff;
+    width: 1px;
+    height:  50px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+a:active{
+    font-weight: 900;
+    text-decoration: white underline;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 66px;
+}
+/* main section */
+main{
+    background-image: url("../Assets/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y:center;
+    height:100vh;
+    width: 100vw;
+    text-align: center;
+}
+.maintext{
+    margin-top: 100px;
+    color: #ffffff;
+}
+.maintext h1{
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+}
+.maintext p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.maintext button{
+    margin-top: 60px;
+    padding: 12px 22px;
+    font-size: 25px;
+}
+
+
